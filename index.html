@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Convoy Web Application">
+    
+    <!-- Title -->
+    <title>Convoy</title>
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Firebase SDKs (if loading directly) -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script> -->
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/main.tsx" as="script">
+  </head>
+  <body>
+    <!-- React root -->
+    <div id="root"></div>
+
+    <!-- Loading state (optional) -->
+    <noscript>
+      <h1>JavaScript is required to run this application.</h1>
+    </noscript>
+
+    <!-- Built JS files (auto-injected by your bundler) -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
